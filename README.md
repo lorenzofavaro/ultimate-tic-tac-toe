@@ -38,9 +38,8 @@ Here's how the Minimax algorithm works:
 ## Result
 The AI implemented at the moment performs quite well, in fact I have reached the Silver League ✔️ of [CodinGame](https://codingame.com/). Below I show you some of the hundreds of games played.
 
-<video width="640" height="480" controls>
-  <source src="docs/battle-1.mp4" type="video/mp4">
-</video>
-<video width="640" height="480" controls>
-  <source src="docs/battle-2.mp4" type="video/mp4">
-</video>
+### X Player
+![Battle 1](docs/battle-1.gif)
+
+### O Player
+![Battle 2](docs/battle-2.gif)
