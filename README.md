@@ -4,22 +4,22 @@ The code implements a strategy for playing Ultimate Tic Tac Toe using the Minima
 ## Game rules
 Ultimate Tic Tac Toe is an advanced variant of the classic game of Tic Tac Toe that adds an additional strategic dimension to the gameplay. The basic rules of Tic Tac Toe remain the same, but the game board is divided into 9 sub-boards, and players must try to win both on the sub-boards and the main board. 
 
-<div align='center'><img src='docs/empty-board.png' width=50%></div>
+<div align='center'><img src='docs/empty-board.png' width=25%></div>
 
 A player's move determines which sub-board the next player must play in. The next player's move must be made in the corresponding sub-board indicated by the previous player's move.
-<div align='center'><img src='docs/move-2.png' width=50%></div>
+<div align='center'><img src='docs/move-2.png' width=25%></div>
 
 If a player wins a sub-board, they claim that sub-board with their symbol (X or O). The sub-board is considered completed, and subsequent moves can be made in any open sub-board on the main board.
 
 The objective is to win the game by either completing a line of three symbols (X or O) vertically, horizontally, or diagonally in a sub-board, or by winning three sub-boards in a row vertically, horizontally, or diagonally on the main board.
-<div align='center'><img src='docs/tris.png' width=50%></div>
+<div align='center'><img src='docs/tris.png' width=25%></div>
 
 If a player is forced to play in a sub-board that has already been claimed or has already been completed, they can choose any open sub-board to play in.
 The game continues until a player wins the overall game by completing the winning conditions mentioned above, or until all sub-boards and the main board are filled with symbols, resulting in a tie.
 
 ## AI Algorithm
 The implemented [Minimax algorithm](https://en.wikipedia.org/wiki/Minimax) is a decision-making algorithm that allows the player to determine the best move to make based on the current game state. It evaluates all possible moves by recursively exploring the game tree, assigning scores to each node, and then backtracking to find the optimal move.
-<div align='center'><img src='docs/minimax-tree.png'></div>
+<div align='center'><img src='docs/minimax-tree.png' width=50%></div>
 
 Here's how the Minimax algorithm works:
 1. The algorithm considers the current state of the main board and the sub-boards and the player who is about to make a move
@@ -43,4 +43,3 @@ The AI implemented at the moment performs quite well, in fact I have reached the
 <video width="640" height="480" controls>
   <source src="docs/battle-2.mp4" type="video/mp4">
 </video>
-
