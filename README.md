@@ -1,5 +1,6 @@
 # ultimate-tic-tac-toe
 The code implements a strategy for playing Ultimate Tic Tac Toe using the Minimax algorithm with Alpha-Beta pruning.
+I designed it for the online [Bot Programming challenge by CodinGame](https://www.codingame.com/multiplayer/bot-programming/tic-tac-toe).
 
 ## Game rules
 Ultimate Tic Tac Toe is an advanced variant of the classic game of Tic Tac Toe that adds an additional strategic dimension to the gameplay. The basic rules of Tic Tac Toe remain the same, but the game board is divided into 9 sub-boards, and players must try to win both on the sub-boards and the main board. 
